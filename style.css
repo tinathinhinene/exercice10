@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+}
+
+
+
+.parallax1 {
+
+  background-image: url("./image/giphy.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.cl1 {
+  background: linear-gradient(360deg, rgb(243, 241, 243)2%, hwb(329 19% 49% / 0.592)57%);
+  line-height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cl2 {
+  background: linear-gradient(360deg, rgb(243, 241, 243)2%, hwb(329 19% 49% / 0.592)57%);
+  line-height: 60px;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 500px;
+ 
+
+}
+
+.nav {
+  text-align: center;
+  background: none;
+}
+
+.barredenavigation {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: linear-gradient(360deg, rgb(243, 241, 243)2%, hwb(329 19% 49% / 0.592)57%);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  overflow: visible;
+
+
+}
+
+.menu>li {
+  float: left;
+  color: black;
+  font-weight: bolder;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 6, 6);
+}
+
+a:hover {
+  color: #d01e1e;
+}
+
+.menu>li:hover .sub-menu li {
+  transform: scale(1);
+}
+
+.menu>li:hover .sub-menu {
+  transform: scale(1);
+}
+
+nav ul {
+  list-style-type: none;
+}
