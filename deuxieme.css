@@ -104,7 +104,7 @@ nav ul {
 .t1{
   background: none;
   display: flex;
- justify-content: space-around;
+ justify-content: center;
 
   text-align: center;
   background: none;
@@ -512,13 +512,13 @@ background-color: white;
   }
   @keyframes fondu{
     0%{
-        background-image: url("./image/8Hh6.gif");
+        background-image: url("./image/A3XO.gif");
     }
     33.33%{
         background-image: url("./image/ik.gif");
     }
     66.67%{
-        background-image: url("./image/8Hh6.gif");
+        background-image: url("./image/A3XO.gif");
     }
     100%{
         background-image: url("./image/ik");
@@ -623,4 +623,32 @@ background-color: white;
     font-size: 50px;
     font-weight: bolder;
     
+  }
+  .pt{
+    display:flex;
+    justify-content: center;
+    line-height: 60px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .ptt{
+    display: block;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .front4{
+    position: relative;
+    z-index: 2;
+    max-width:600;
+    max-height:900px;
+    transition:2s;
+    top:20%;
+    color: black;
+  
+   }
+  .front4:hover{
+    transform:scale(2);
   }
